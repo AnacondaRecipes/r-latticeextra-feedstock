@@ -10,8 +10,8 @@ package:
 source:
   fn: latticeExtra_{{ version }}.tar.gz
   url:
-    - https://cran.r-project.org/src/contrib/latticeExtra_{{ version }}.tar.gz
-    - https://cran.r-project.org/src/contrib/Archive/latticeExtra/latticeExtra_{{ version }}.tar.gz
+    - {{ cran_mirror }}/src/contrib/latticeExtra_{{ version }}.tar.gz
+    - {{ cran_mirror }}/src/contrib/Archive/latticeExtra/latticeExtra_{{ version }}.tar.gz
   sha256: 780695323dfadac108fb27000011c734e2927b1e0f069f247d65d27994c67ec2
 
 
